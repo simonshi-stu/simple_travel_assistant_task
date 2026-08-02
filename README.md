@@ -1,6 +1,9 @@
-# Hello Agent - Simple Travel Assistant
+# Hello-Agents - Simple Travel Assistant 示例
 
-这是 [Hello Agent](https://github.com/simonshi-stu/simple_travel_assistant_task) 项目下的一个小型示例，用于演示一个可以调用工具的旅行助手 Agent。
+这是 [Datawhale Hello-Agents](https://github.com/datawhalechina/Hello-Agents)
+教程学习过程中的一个小型练习项目，用于演示如何构建一个能够调用工具的旅行助手 Agent。
+
+本仓库是独立示例，不是 `datawhalechina/Hello-Agents` 官方仓库。
 
 ## 功能
 
@@ -24,4 +27,4 @@ $env:TAVILY_API_KEY="你的 Tavily API Key"
 .\.venv\Scripts\python.exe main.py
 ```
 
-这是一个用于学习 Agent 基本工作流程的最小示例。
+这是一个用于学习 Hello-Agents 教程中 Agent 基本工作流程的最小示例。
