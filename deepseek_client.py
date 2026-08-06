@@ -3,6 +3,11 @@ from typing import Any
 
 from openai import OpenAI
 
+from local_env import load_local_env
+
+
+load_local_env()
+
 
 class DeepSeekCompatibleClient(OpenAI):
     """兼容 OpenAI SDK 调用方式的 DeepSeek 客户端。"""
